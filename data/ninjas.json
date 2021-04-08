@@ -1,0 +1,20 @@
+[
+  {
+    "name": "amitay",
+    "belt": "black",
+    "age": 33,
+    "thumb": "images/image1.jpg"
+  },
+  {
+    "name": "Nurit",
+    "belt": "orange",
+    "age": 70,
+    "thumb": "images/image2.jpg"
+  },
+  {
+    "name": "Avi",
+    "belt": "purple",
+    "age": 73,
+    "thumb": "images/image3.jpg"
+  }
+]

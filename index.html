@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myNinjaApp">
+  <head>
+    <base href="/" />
+    <link href="content/css/styles.css" rel="stylesheet" type="text/css" />
+    <title>TheNetNinja Angular Playlist</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.2/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-animate/1.8.2/angular-animate.min.js"></script>
+  </head>
+  <body>
+    <!-- Directives- they direct angular to do something with them. ng-something -->
+    <header ng-include="'header.html'"></header>
+    <main ng-view></main>
+    <!-- <input type="text" ng-model="favMeat" placeholder="Enter your fav meat" />
+    <p>Your fav meat is: {{favMeat}}</p>
+    <p ng-repeat="name in names">{{name}}</p> -->
+
+    <script src="./app/lib/app.js"></script>
+  </body>
+</html>
+
+<!-- MVC -->
+<!-- 
+  Model- data
+  View- HTML
+  Controller- JS which connetcts the two. handles the data
+ -->
